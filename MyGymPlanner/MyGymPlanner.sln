@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGymPlanner", "MyGymPlanner\MyGymPlanner.csproj", "{8A227CC8-D183-4DC0-A314-039C5B08413E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGymPlanner.Common", "MyGymPlanner.Common\MyGymPlanner.Common.csproj", "{44DF121B-2D29-4D51-9297-3EA06574E515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{017F00C9-86B4-4686-BAF6-6D55BB1F5EFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D1271C34-2175-4E19-947E-030F13F57164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGymPlanner.Data", "MyGymPlanner.Data\MyGymPlanner.Data.csproj", "{D45373E9-19D5-492D-AF04-1EB01CAEFFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGymPlanner.Data.Models", "MyGymPlanner.Data.Models\MyGymPlanner.Data.Models.csproj", "{E751FEF8-03FB-4929-95D7-B6F2B9E598CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGymPlanner.Web.ViewModels", "MyGymPlanner.Web.ViewModels\MyGymPlanner.Web.ViewModels.csproj", "{A83F7441-823F-4045-817D-6ACFE731EE2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A227CC8-D183-4DC0-A314-039C5B08413E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A227CC8-D183-4DC0-A314-039C5B08413E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A227CC8-D183-4DC0-A314-039C5B08413E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A227CC8-D183-4DC0-A314-039C5B08413E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DF121B-2D29-4D51-9297-3EA06574E515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DF121B-2D29-4D51-9297-3EA06574E515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DF121B-2D29-4D51-9297-3EA06574E515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DF121B-2D29-4D51-9297-3EA06574E515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45373E9-19D5-492D-AF04-1EB01CAEFFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45373E9-19D5-492D-AF04-1EB01CAEFFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45373E9-19D5-492D-AF04-1EB01CAEFFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45373E9-19D5-492D-AF04-1EB01CAEFFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E751FEF8-03FB-4929-95D7-B6F2B9E598CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E751FEF8-03FB-4929-95D7-B6F2B9E598CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E751FEF8-03FB-4929-95D7-B6F2B9E598CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E751FEF8-03FB-4929-95D7-B6F2B9E598CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83F7441-823F-4045-817D-6ACFE731EE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83F7441-823F-4045-817D-6ACFE731EE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83F7441-823F-4045-817D-6ACFE731EE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83F7441-823F-4045-817D-6ACFE731EE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D45373E9-19D5-492D-AF04-1EB01CAEFFF6} = {D1271C34-2175-4E19-947E-030F13F57164}
+		{E751FEF8-03FB-4929-95D7-B6F2B9E598CA} = {D1271C34-2175-4E19-947E-030F13F57164}
+		{A83F7441-823F-4045-817D-6ACFE731EE2E} = {017F00C9-86B4-4686-BAF6-6D55BB1F5EFD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A43E1E4-BC5C-4C96-A91A-7D93CF296FEC}
+	EndGlobalSection
+EndGlobal
